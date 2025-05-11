@@ -8,6 +8,53 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container">
+		<h1>Sign Up Form</h1>
+		<form>
+			<div class="items">
+				<label>Name</label>
+				<input type="text" for="name" id="name" placeholder="Name" required>
+			</div>
+			<div class="items">
+				<label>Email</label>
+				<input type="email" for="email" id="email" placeholder="Email" required>
+			</div>
+			<div class="items-1" id="1">
+				<label>Gender</label>
+				<input type="Radio" for="gender" name="gender" id="gender_m" required> Male
+				<input type="Radio" for="gender" name="gender" id="gender_f" required> Female
+			</div>
+			<div class="items">
+				<label>Car Brand</label>
+				<input type="Select" for="card" id="card" placeholder="--Please choose an option--" required>
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>					
+				</select>
+			</div>
+			<div class="items">
+				<label>Age</label>
+				<input type="number" for="age" id="age" placeholder="Age" required>
+			</div>
+			<div class="items">
+				<label>DOB</label>
+				<input type="date" for="dob" id="dob" required>
+			</div>
+			<div class="items">
+				<label>Phone Number</label>
+				<input type="tel" for="tel" id="tel" placeholder="xxx-xxx-xxxx">
+			</div>
+			<div class="items">
+				<label>Password</label>
+				<input type="password" for="password" d="password" placeholder="Password" required>
+			</div>
+
+			<input type="checkbox" for="tos" id="tos" required> I agree to the TOS
+
+			<button type="submit">Sign Up</button>
+		</form>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
